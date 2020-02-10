@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+        <Button
+            android:id="@+id/importantButton"
+            android:layout_width="174dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            tools:text="Dodaj" />
+
+        <TextView
+            android:id="@+id/currency_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="name"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3" />
+
+        <TextView
+            android:id="@+id/date_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="data " />
+
+        <TextView
+            android:id="@+id/currency_kurs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.18"
+            android:text="kurs"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:text="zł"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/shortcut_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.15"
+            android:text="shortcut"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="6sp"
+        android:background="@android:color/white" />
+
+
+</LinearLayout>
